@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfade"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/txtHomePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+     	<!-- Button for What's New -->
+        <Button
+           android:id="@+id/btnwhatsnew"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="5dp"
+           android:background="@null"
+           android:textColor="#FFFFFF"
+           android:text="@string/whatsnew"
+           android:textSize="20sp" />
+        
+        <!-- Button for Announcements -->
+        <Button
+           android:id="@+id/btnannouncements"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="5dp"
+           android:background="@null"
+           android:textColor="#FFFFFF"
+           android:text="@string/announcements"
+           android:textSize="20sp" />
+        
+        <!-- Button for Memos -->
+        <Button
+           android:id="@+id/btnmemos"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="5dp"
+           android:background="@null"
+           android:textColor="#FFFFFF"
+           android:text="@string/memos"
+           android:textSize="20sp" />
+       
+        <!-- Button for May Pasok Ba? -->
+        <Button
+           android:id="@+id/btnmaypaoskba"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="5dp"
+           android:background="@null"
+           android:textColor="#FFFFFF"
+           android:text="@string/maypasokba"
+           android:textSize="20sp" />
+        
+        
+        <!-- Button for Upcoming Events -->
+        <Button
+           android:id="@+id/btnupcomingevents"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="5dp"
+           android:background="@null"
+           android:textColor="#FFFFFF"
+           android:text="@string/upcomingevents"
+           android:textSize="20sp" />
+        
+        <!-- Button for Date of Graduation -->
+        <Button
+           android:id="@+id/btndateofgrad"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="5dp"
+           android:background="@null"
+           android:textColor="#FFFFFF"
+           android:text="@string/dateofgrad"
+           android:textSize="20sp" />
+        
+        <!-- Button for Logout -->
+        <Button
+           android:id="@+id/btnlogout"
+           android:layout_width="150dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="60dp"
+           android:layout_marginBottom="15dp"
+           android:layout_gravity="center_vertical|center_horizontal"
+           android:background="@drawable/login"
+           android:textColor="#ffffff"
+       	    android:textStyle="bold"
+           android:text="@string/logout"
+           android:textSize="20sp" />
+        
+    </LinearLayout>
+    
+    
+</ScrollView>

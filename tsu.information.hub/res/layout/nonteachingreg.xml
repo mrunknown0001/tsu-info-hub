@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfade"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip" >
+       
+    	<!-- Text for the Registration Layout -->
+       	<TextView
+        android:id="@+id/txtNonTeachingRegWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/nonteachingreg_msg"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+       	
+       	
+
+       	
+       	<!-- Text Field for Non Teaching Password -->
+
+       	<EditText
+       	    android:id="@+id/nonTeachingIdNumber"
+       	    android:layout_width="match_parent"
+       	    android:layout_height="wrap_content"
+       	    android:layout_marginBottom="5dp"
+       	    android:ems="10"
+       	    android:hint="@string/enter_nonteaching_id_number"
+       	    android:inputType="numberSigned" >
+
+       	    <requestFocus />
+       	</EditText>
+
+		<EditText
+	       	android:id="@+id/nonteachingPassword"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5dp"
+	        android:inputType="textPassword"
+	        android:hint="@string/enter_password"
+	        android:ems="10"
+       	    
+       	    >
+       	</EditText>
+       	
+       	
+       	<!-- Text Field for Non Teaching First Name -->
+       	<EditText
+	       	android:id="@+id/nonteachingFirstName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5dp"
+	        android:inputType="textPersonName"
+	        android:hint="@string/enter_first_name"
+	        android:ems="10"
+       	    
+       	    >
+       	
+       	</EditText>
+
+       	<!-- Text Field for Non Teaching Last Name  -->
+       	<EditText 
+	       	android:id="@+id/nonteachingLastName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5dp"
+	        android:inputType="textPersonName"
+	        android:hint="@string/enter_last_name"
+	        android:ems="10"
+       	    
+       	    >
+       	
+       	</EditText>
+       	
+       	
+       	<!-- Text Field for Non Teaching Middle Name/Initial -->
+       	<EditText 
+	       	android:id="@+id/nonteachingMiddleName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5dp"
+	        android:inputType="textPersonName"
+	        android:hint="@string/enter_middle_name"
+	        android:ems="10"
+       	    
+       	    >
+       	
+       	</EditText>
+       	
+       	
+       	<!-- Text Field for Non Teaching ID Number -->
+
+       	
+		<Button
+		    android:id="@+id/btnContinueNonteaching"
+            android:layout_width="88dp"
+            android:layout_height="81dp"
+		    android:layout_gravity="center_vertical|center_horizontal"
+			android:background="@drawable/go"
+		    >
+		    
+		</Button>	 
+	
+    </LinearLayout>
+    
+
+</ScrollView>

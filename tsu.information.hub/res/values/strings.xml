@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TSU Information Hub</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Titles of layouts -->
+    <string name="login_title">TSU Information Hub - Login</string>
+    <string name="registration_title">TSU Information Hub - Registration</string>
+    <string name="student_reg">TSU Information Hub - Student Registration</string>
+    <string name="faculty_reg">TSU Information Hub - Faculty Registration</string>
+    <string name="nonteaching_reg">TSU Information Hub - Non Teaching Staff Registration</string>
+    <string name="home_page">Home Page For User</string>
+    
+    <string name="inputlogin">Input Login Details</string>
+    
+    <!-- Messages -->
+    <string name="main_msg">W E L C O M E !</string>
+    <string name="tsuinfohub">TSU INFORMATION HUB</string>
+    <string name="welcome_msg">Welcome to TSU Information Hub</string>
+    <string name="registration_msg">Registration</string>
+    <string name="welcome_homepage">Welcome!</string>
+    <string name="user_homepage_msg">User Home Page</string>
+    <string name="tapthelogo">Tap the logo to Login.</string>
+    <string name="taptheicon">Tap icon to Post.</string>
+    
+    
+    <string name="imglogo">TODO</string>
+    <string name="heretoreg">TAP HERE TO REGISTER</string>
+    
+    
+    <string name="idnumber">ID Number</string>
+    <string name="password">Password</string>
+    
+    
+    <string name="login_text">LOGIN</string>
+    <string name="RegHere">Don\'t have account? Register here.</string>
+    
+    
+    <string name="select_cat">Select Category:</string>
+    
+    <!-- Spinner Category on Registration Layout -->
+   	<string name="selectCategory">Choose Category</string>
+    <string-array name="category">
+        <item>Students</item>
+        <item>Faculty</item>
+        <item>Non-Teaching Staff</item>
+        <item>User</item>
+        
+    </string-array>
+    
+    
+    <!-- Spinner Categor for User Registration Layout -->
+    <string name="selectUserCategory">Select User Cateogory:</string>
+    <string-array name="userCategory">
+        <item>Dean</item>
+        <item>Vice President</item>
+        <item>President</item>
+        
+    </string-array>
+    
+    
+    <string name="continue_reg">Continue</string>
+    <string name="backtohome">Back to Home Page</string>
+    
+    
+    <!-- Top Message for the Registration Layouts -->
+    <string name="studentreg_msg">Student Registration</string>
+    <string name="facultyreg_msg">Facutly Registration</string>
+    <string name="nonteachingreg_msg">Non Teaching Registration</string>
+    <string name="userreg_msg">User Registration</string>
+    
+    
+    <!-- Text Apply for all -->
+    <string name="enter_first_name">First Name</string>
+    <string name="enter_last_name">Last Name</string>
+    <string name="enter_middle_name">Middle Name</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_password">Password</string>
+    <string name="choose_college">Choose College</string>
+    <string-array name="colleges">
+        <item>College of Computer Studies</item>
+        <item>College of Engineering</item>
+        <item>College of Human Kinetics</item>
+        <item>College of Science</item>
+        <item>College of Arts and Social Sciences</item>
+        <item>College of Public Administration</item>
+        <item>College of Business and Accountancy</item>
+        
+    </string-array>
+    
+    <!-- Text Apply for Student Registration Only -->
+    <string name="enter_student_number">Student Number</string>
+    <string name="choose_year">Choose Year Level</string>
+    <string-array name="year_level">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+        <item>Fifth Year</item>
+        
+    </string-array>
+    
+    
+    <!-- Text Apply for Faculty Registration only -->
+    <string name="enter_faculty_id_number">ID Number</string>
+    
+    
+    <!-- Text Apply for User -->
+    <string name="enter_user_id_number">ID Number</string>
+    
+    <!-- Text Apply for Non Teaching Staff Registration Only -->
+    <string name="enter_nonteaching_id_number">ID Number</string>
+    
+    
+    <!-- Clickables in the HomePage :) -->
+    <string name="announcements">Announcements</string>
+    <string name="memos">Memos</string>
+    <string name="maypasokba">May Pasok Ba?</string>
+    <string name="upcomingevents">Upcoming Events</string>
+    <string name="whatsnew">What\'s New</string>
+    <string name="dateofgrad">Date of Graduation</string>
+    <string name="logout">LOGOUT</string>
+    
+    
+    <!-- Text in Create Message layout -->
+    <string name="createmsgpost">Create Message to Post</string>
+    <string name="entermsg">Enter Message</string>
+    <string name="msgpost">Post</string>
+    <string name="posttitle">Enter Title</string>
+    
+    <string name="chooseposttype">Choose Post Type:</string>
+    
+    <string-array name="posttype">
+        <item>Announcement</item>
+        <item>Memo</item>
+        <item>May Pasok ba?</item>
+        <item>Whats New?</item>
+        <item>Upcoming Events</item>
+        <item>Date of Graduation</item>
+        
+    </string-array>
+    
+    
+    <string name="chooseviewer">Choose Viewer(s)</string>
+    <string-array name="viewer">
+        <item name="000">All</item>
+        <item name="001">Vice Presidents</item>
+        <item name="002">Directors</item>
+        <item name="003">Non Teaching Staffs</item>
+        
+        <item name="004">All Deans</item>
+        <item name="005">Dean of CCS</item>
+        <item name="006">Dean of COE</item>
+        <item name="007">Dean of CHK</item>
+        <item name="008">Dean of COS</item>
+        <item name="009">Dean of CASS</item>
+        <item name="010">Dean of CPA</item>
+        <item name="011">Dean of CBA</item>
+        
+        <item name="012">All Faculty</item>
+        <item name="013">Faculty of CCS</item>
+        <item name="014">Faculty of COE</item>
+        <item name="015">Faculty of CHK</item>
+        <item name="016">Faculty of COS</item>
+        <item name="017">Faculty of CASS</item>
+        <item name="018">Faculty of CPA</item>
+        <item name="019">Faculty of CBA</item>
+        
+        <item name="020">All Students</item>
+        
+        <item name="021">All Students of CCS</item>
+        <item name="022">1st Year Students of CCS</item>
+        <item name="023">2nd Year Students of CCS</item>
+        <item name="024">3rd Year Students of CCS</item>
+        <item name="025">4th Year Students of CCS</item>
+        
+        <item name="026">All Students of COE</item>
+        <item name="027">1st Year Students of COE</item>
+        <item name="028">2nd Year Students of COE</item>
+        <item name="029">3rd Year Students of COE</item>
+        <item name="030">4th Year Students of COE</item>
+        <item name="031">5th Year Students of COE</item>
+        
+        <item name="032">All Students of CHK</item>
+        <item name="033">1st Year Students of CHK</item>
+        <item name="034">2nd Year Students of CHK</item>
+        <item name="035">3rd Year Students of CHK</item>
+        <item name="036">4rd Year Students of CHK</item>
+        
+        <item name="037">All Students of COS</item>
+        <item name="038">1st Year Students of COS</item>
+        <item name="039">2nd Year Students of COS</item>
+        <item name="040">3rd Year Students of COS</item>
+        <item name="041">4th Year Students of COS</item>
+        
+        <item name="042">All Students of CASS</item>
+        <item name="043">1st Year Students of CASS</item>
+        <item name="044">2nd Year Students of CASS</item>
+        <item name="045">3rd Year Students of CASS</item>
+        <item name="046">4th Year Students of CASS</item>
+        
+        <item name="047">All Students of CPA</item>
+        <item name="048">1st Year Students of CPA</item>
+        <item name="049">2nd Year Students of CPA</item>
+        <item name="050">3rd Year Students of CPA</item>
+        <item name="051">4th Year Students of CPA</item>
+        
+        <item name="052">All Students of CBA</item>
+        <item name="053">1st Year Students of CBA</item>
+        <item name="054">2nd Year Students of CBA</item>
+        <item name="055">3rd Year Students of CBA</item>
+        <item name="056">4th Year Students of CBA</item>
+        <item name="057">5th Year Students of CBA</item>
+            
+        
+        
+    </string-array>
+    
+    
+    <string name="salutation">Choose Salutation:</string>
+    
+    <string-array name="salutationopt">
+        <item>Ms.</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Eng.</item>
+        <item>Dr.</item>
+        <item>Prof.</item>
+        
+    </string-array>
+    
+    <string name="chooseposition">Choose Position:</string>
+    <string-array name="position">
+        <item>President</item>
+        <item>Vice President</item>
+        <item>Dean</item>
+        
+    </string-array>
+    
+    <!-- Text use in User HomePage Layout -->
+    <string name="postmessage">Post Message</string>
+    <string name="view">View Posts</string>
+    
+    <!-- Texts in View class -->
+    <string name="viewthis">View</string>
+    
+    <string name="nopost">NO NEW POST YET. THANK YOU :)</string>
+    <!--  Custom colors down here -->
+    
+    <color name="maroon">#590000</color>
+
+</resources>

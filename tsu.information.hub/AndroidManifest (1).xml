@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tsu.information.hub"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+    
+    <!-- Permission to connect to the Internet -->
+     <uses-permission android:name="android.permission.INTERNET" />  
+       
+     <!-- Permission to connect to the Network/WiFi -->
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+
+    <application
+        android:name="tsu.information.hub.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/tsu_logo"
+        android:label="@string/login_title"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="tsu.information.hub.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+                
+            </intent-filter>
+        </activity>
+        
+                       
+        <!-- Registration Class Activity -->
+        <activity 
+            android:name="tsu.information.hub.Registration"
+            android:label="@string/registration_title" >
+            
+        </activity>   
+        
+        <!-- Student Registration Activity -->
+        <activity
+            android:name="tsu.information.hub.StudentReg"
+            android:label="@string/student_reg" >
+           
+            
+        </activity>
+        
+        <!-- Faculty Registration Activity -->
+        <activity
+            android:name="tsu.information.hub.FacultyReg"
+            android:label="@string/faculty_reg"
+            >
+       
+        </activity>
+        
+        <!-- Non Teaching Registration Activity -->
+        <activity
+            android:name="tsu.information.hub.NonTeachingReg"
+            android:label="@string/nonteaching_reg"
+            >
+            
+                 
+        </activity>
+        
+        
+        <!-- HomePage Main Page Activity -->
+        <activity
+            android:name="tsu.information.hub.HomePage"
+            android:label="@string/home_page"
+            >
+            
+        </activity>
+        
+        <!-- Activity for Date of Graduation -->
+        <activity
+            android:name="tsu.information.hub.DateOfGrad"
+            android:label="Date of Graduation" >
+            </activity>
+            
+        <!-- Activity for Up coming Events -->
+        <activity
+            android:name="tsu.information.hub.UpComingEvents"
+            android:label="Upcoming Events" >
+           </activity>
+           
+        <!-- Activity for What's New -->
+        <activity 
+            android:name="tsu.information.hub.WhatsNew"
+            android:label="What's New" >
+            
+        </activity>
+        
+        <!-- Activity for May Pasok Ba? -->
+        <activity 
+            android:name="tsu.information.hub.MayPasokBa"
+            android:label="May Pasok Ba?"
+            >
+
+        </activity>
+        
+        <!-- Activity for Announcements -->
+        <activity 
+            android:name="tsu.information.hub.Announcements"
+            android:label="Announcements" >
+            
+        </activity>
+        
+        <!-- Activity for User Home Page -->
+        <activity
+            android:name="tsu.information.hub.UserHomePage"
+            android:label="Home Page For Admin"
+            />
+        
+        <!-- Activity for User Create Message -->
+        <activity
+            android:name="tsu.information.hub.UserCreateMsg"
+            android:label="Post Message"
+            />
+        
+        <!-- Activity for User Registration -->
+        <activity
+            android:name="tsu.information.hub.UserReg"
+            android:label="TSU Information Hub - User Registration" >
+            
+        </activity>
+        
+       <!-- Activity for Memo -->
+        <activity 
+            android:name="tsu.information.hub.Memo"
+            android:label="Memo"
+            >
+            
+        </activity>
+        
+	
+        <!-- Activity for login -->
+        <activity
+            android:name=".Login"
+            android:label="Login to TSU Information Hub" >
+            
+        </activity>
+        
+        <!-- Activity for ViewPost -->
+        <activity
+            android:name="tsu.information.hub.ViewPost"
+            android:label="View Post"
+            >
+            
+        </activity>
+        	
+        
+        
+</application>
+
+   		
+</manifest>
